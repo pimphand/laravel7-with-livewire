@@ -1,4 +1,5 @@
 <div>
+
     <input class="form-control search-input" wire:model.debounce.500ms="searchTerm" type="text" placeholder="Search..."/>
     <table class="table table-striped">
         <thead>
